@@ -593,7 +593,7 @@ export default function App() {
       </header>
 
       {/* hero */}
-      <section className="mx-auto max-w-6xl px-4 pt-10 md:pt-14 pb-6">
+      <section className="mx-auto max-w-6xl px-4 pt-10 md:pt-14 pb-4 md:pb-6">
         <div
           onMouseMove={onMv}
           className="relative overflow-hidden rounded-[34px] border border-black/5 bg-transparent"
@@ -661,7 +661,7 @@ export default function App() {
       </section>
 
       {/* Featured Asset */}
-      <section className="mx-auto max-w-6xl px-4 pb-10 md:pb-14">
+      <section className="mx-auto max-w-6xl px-4 pb-6 md:pb-14">
         <motion.div
           initial="hid"
           whileInView="shw"
@@ -679,7 +679,10 @@ export default function App() {
       </section>
 
       {/* catalog */}
-      <section id="catalog" className="mx-auto max-w-6xl px-4 py-10 md:py-14">
+      <section
+        id="catalog"
+        className="mx-auto max-w-6xl px-4 pt-4 pb-10 md:py-14"
+      >
         <motion.div
           initial="hid"
           whileInView="shw"
@@ -1021,11 +1024,11 @@ export default function App() {
                 </div>
 
                 <div className="mt-7 rounded-3xl border border-amber-300/30 bg-[linear-gradient(135deg,rgba(255,248,230,0.70),rgba(255,248,230,0.40))] p-6">
-                  <p className="text-sm font-black text-amber-950">
-                    Ayush Soni
-                  </p>
                   <p className="text-sm font-black text-amber-900">
                     Direct Contact
+                  </p>
+                  <p className="text-sm font-black text-amber-950">
+                    Ayush Soni
                   </p>
                   <p className="mt-2 text-sm font-semibold text-amber-800">
                     Phone: +91 6306216958
