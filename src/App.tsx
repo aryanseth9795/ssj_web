@@ -661,7 +661,7 @@ export default function App() {
       </section>
 
       {/* Featured Asset */}
-      <section className="mx-auto max-w-6xl px-4 pb-6 md:pb-14">
+      <section className="mx-auto max-w-6xl px-4 pb-6 md:pb-1">
         <motion.div
           initial="hid"
           whileInView="shw"
@@ -681,7 +681,7 @@ export default function App() {
       {/* catalog */}
       <section
         id="catalog"
-        className="mx-auto max-w-6xl px-4 pt-4 pb-10 md:py-14"
+        className="mx-auto max-w-6xl px-4 pt-4 pb-10 md:py-1"
       >
         <motion.div
           initial="hid"
@@ -730,7 +730,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="hidden md:grid mt-4 gap-3 sm:grid-cols-2 lg:grid-cols-3 md:mt-6 md:gap-4">
             {list.map((x) => (
               <motion.div
                 key={x.id}
