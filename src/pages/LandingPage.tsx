@@ -1,17 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import {
-  fadeUp,
-  Btn,
-  Pill,
-  Stat,
-  Acc,
-  Inp,
-  Sel,
-  Field,
-  useSpot,
-} from "../components/ui";
+import { fadeUp, Btn, Pill, Stat, Acc, Inp, useSpot } from "../components/ui";
 import { useStaticData } from "../hooks/useStaticData";
 import { API_BASE_URL, ENDPOINTS } from "../config/api";
 import type { IProduct } from "../types";

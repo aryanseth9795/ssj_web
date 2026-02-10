@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { fadeUp, Btn } from "../components/ui";
+import { fadeUp } from "../components/ui";
 import { API_BASE_URL, ENDPOINTS } from "../config/api";
 import type { ICategory, IProduct } from "../types";
 

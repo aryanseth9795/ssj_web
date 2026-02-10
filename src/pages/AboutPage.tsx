@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeUp, Btn } from "../components/ui";
+import { fadeUp } from "../components/ui";
 
 // Exact same data as App's ProfileScreen
 const BIZ = {
