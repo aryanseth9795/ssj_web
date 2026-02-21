@@ -51,20 +51,20 @@ export default function PrivacyPolicyPage() {
               2. Information Collection and Use
             </h2>
             <p className="text-sm leading-relaxed font-medium mb-2">
-              For a better experience while using our Service, we may require
-              you to provide us with certain personally identifiable
-              information, including but not limited to:
+              <strong>
+                We do not collect, store, or process any personal information.
+              </strong>{" "}
+              Our application is designed to function without requiring you to
+              provide personally identifiable information such as your name,
+              phone number, email address, or location.
             </p>
-            <ul className="list-disc pl-5 text-sm space-y-1 font-medium">
-              <li>Name and Contact Information (Phone Number)</li>
-              <li>Device Information and App Usage Data</li>
-              <li>Location Information (if granted permission)</li>
-            </ul>
             <p className="text-sm leading-relaxed font-medium mt-2">
-              The information that we request will be retained by us and used as
-              described in this privacy policy to provide, maintain, and improve
-              our services, as well as to facilitate order processing and
-              customer support.
+              The only permission our app requests is for{" "}
+              <strong>Push Notifications</strong>. This permission is solely
+              used to send you important updates, such as changes in live
+              gold/silver rates, new product arrivals, or store announcements.
+              We do not use this permission to track you or collect background
+              data.
             </p>
           </section>
 
@@ -73,11 +73,11 @@ export default function PrivacyPolicyPage() {
               3. Data Security
             </h2>
             <p className="text-sm leading-relaxed font-medium">
-              We value your trust in providing us your Personal Information,
-              thus we are striving to use commercially acceptable means of
-              protecting it. But remember that no method of transmission over
-              the internet, or method of electronic storage is 100% secure and
-              reliable, and we cannot guarantee its absolute security.
+              Because our application does not collect any personal information,
+              there is no personal user data stored on our servers that could be
+              compromised. The Push Notification service relies on anonymous
+              device or push tokens handled securely by third-party notification
+              services.
             </p>
           </section>
 
@@ -86,11 +86,12 @@ export default function PrivacyPolicyPage() {
               4. Third-Party Services
             </h2>
             <p className="text-sm leading-relaxed font-medium">
-              The app does use third-party services that may collect information
-              used to identify you. These third-party service providers have
-              their own Privacy Policies addressing how they use such
-              information (e.g., Google Play Services, Firebase Cloud
-              Messaging).
+              The app relies on trusted third-party services (such as Expo and
+              Firebase Cloud Messaging) to deliver Push Notifications. These
+              services may collect anonymous device identifiers necessary to
+              route the notifications to your device. They have their own
+              Privacy Policies addressing how they handle such infrastructure
+              data.
             </p>
           </section>
 
@@ -99,10 +100,12 @@ export default function PrivacyPolicyPage() {
               5. Data Deletion Rights
             </h2>
             <p className="text-sm leading-relaxed font-medium">
-              You have the right to request the deletion of your personal data
-              that we have collected. To exercise this right, you can contact us
-              using the information provided below. We will process your request
-              in accordance with applicable data protection laws.
+              Because our app does not require account creation and does not
+              collect any personal data, we do not store personal records linked
+              to you. Therefore, there is no personal data to delete upon
+              request. If you wish to stop receiving push notifications, you can
+              simply revoke the notification permission in your device's
+              settings or uninstall the app.
             </p>
           </section>
 
