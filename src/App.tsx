@@ -5,6 +5,7 @@ import PricesPage from "./pages/PricesPage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import AboutPage from "./pages/AboutPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Route>
     </Routes>
   );

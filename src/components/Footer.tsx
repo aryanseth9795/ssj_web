@@ -16,6 +16,7 @@ export function Footer() {
             { to: "/prices", label: "Live Rates" },
             { to: "/products", label: "Products" },
             { to: "/about", label: "About Us" },
+            { to: "/privacy-policy", label: "Privacy Policy" },
           ].map(({ to, label }) => (
             <Link
               key={to}
